@@ -1,12 +1,12 @@
-![Alt](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
-Hackathon Starter [![Dependency Status](https://david-dm.org/sahat/hackathon-starter/status.svg?style=flat)](https://david-dm.org/sahat/hackathon-starter) [![Build Status](https://travis-ci.org/sahat/hackathon-starter.svg?branch=master)](https://travis-ci.org/sahat/hackathon-starter) [![Analytics](https://ga-beacon.appspot.com/UA-47447818-2/hackathon-starter?pixel)](https://github.com/igrigorik/ga-beacon)
+![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
+Hackathon Starter [![Dependency Status](https://david-dm.org/sahat/hackathon-starter/status.svg?style=flat)](https://david-dm.org/sahat/hackathon-starter) [![Build Status](https://travis-ci.org/sahat/hackathon-starter.svg?branch=master)](https://travis-ci.org/sahat/hackathon-starter)
 =======================
 
-[![Join the chat at https://gitter.im/sahat/hackathon-starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sahat/hackathon-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
+[![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/sahat) [![Join the chat at https://gitter.im/sahat/hackathon-starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sahat/hackathon-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
 
 **Live Demo**: http://hackathonstarter.herokuapp.com
 
-Jump to [What's new in 3.4.0?](#changelog)
+Jump to [What's new in 3.4.1?](#changelog)
 
 A boilerplate for **Node.js** web applications.
 
@@ -319,6 +319,14 @@ The same goes for other providers.
 - Sign up for an account.
 - Once logged into the dashboard, go to the top right selector and click 'account settings'
 - Under the developers tab, create your access token and copy and paste it into `.env` file
+
+<hr>
+
+<img src="https://s3.amazonaws.com/ahoy-assets.twilio.com/global/images/wordmark.svg" width="200">
+- Go to https://www.twilio.com/try-twilio
+- Sign up for an account.
+- Once logged into the dashboard, expand the link 'show api credentials'
+- Copy your Account Sid and Auth Token
 
 Project Structure
 -----------------
@@ -1135,6 +1143,16 @@ Also, be sure to check out the [Jump-start your hackathon efforts with DevOps Se
 
 Changelog
 ---------
+
+### 3.4.1 (February 6, 2016)
+- Added "Obtaining Twilio API Keys" instructions.
+- Updated Bootstrap v3.3.6.
+- Updated jQuery v2.2.0.
+- Updated Font Awesome v4.5.0.
+- Removed `debug` and `outputStyle` from the Sass middleware options.
+- Removed `connect-assets` (no longer used) from *package.json*`.
+- Fixed Font Awesome icon syntax error in *profile.jade*.
+- Fixed Cheerio broken link.
 
 ### 3.4.0 (January 5, 2016)
 - Use `dontenv` package for managing API keys and secrets.
